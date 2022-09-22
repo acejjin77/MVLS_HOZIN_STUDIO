@@ -1,0 +1,14 @@
+body {
+    font-family: 'Montserrat', sans-serif;
+    color: #fff;
+    font-size: 1.4em;
+    margin: 0;
+    height: 100vh;
+    background-color: #000;
+  }
+  .sec{
+    position: relative;
+    width: calc(100% - 100px);
+    height: 1200px;
+    
+  }
