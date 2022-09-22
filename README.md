@@ -2,7 +2,7 @@
 
 ### Reference, Version, Tech
 
-- java 11, hibernates 5.6.7, Spring security 5
+- spring boot 2.7.3, java 11, hibernates 5.6.7, Spring security 5
 - DB: Postgresql 11
 - web server, was ??
 
