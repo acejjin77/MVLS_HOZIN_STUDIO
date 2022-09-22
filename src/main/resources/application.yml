@@ -1,0 +1,25 @@
+server:
+#  env: production
+  env: development
+
+spring:
+  profiles:
+    active: local
+  datasource:
+    driver-class-name: org.postgresql.Driver
+    url: jdbc:postgresql://localhost:5432/MVLS
+    username: postgres
+    password: park1124
+
+  jpa:
+    hibernate:
+      ddl-auto: update
+    properties:
+      hibernate:
+        show-sql: true
+
+logging:
+  level:
+    org.hibernate:
+      org.descriptor.sql: debug
+#      org.descriptor.type: trace
